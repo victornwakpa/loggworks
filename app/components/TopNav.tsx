@@ -31,8 +31,8 @@ export default function TopNav() {
                     <Image src={logo} alt={"the website logo"} />
                 </Link>
 
-                <div className="col-start-3 col-end-8 gap-5 py-4">
-                    <div className="flex items-center border border-gray-300 p-3 w-fit bg-white rounded-md">
+                <div className="col-start-3 col-end-8 gap-5 py-3">
+                    <div className="flex items-center border border-gray-300 p-2 w-fit bg-white rounded-md">
                         <input type="text" placeholder="Electrician" className="border-r-2 outline-none w-40" />
                         <MapPin className="ml-2 inline-block w-4 text-gray-400" />
                         <input type="text" placeholder="Town/postcode" className="border-none outline-none w-40 ml-2" />
@@ -43,7 +43,7 @@ export default function TopNav() {
 
                 <div className="flex items-center justify-end col-start-8 col-end-10 gap-4 font-semibold">
                     <Link href="#" className="text-slate-500">Professional</Link>
-                    <Link href="#" className="border-primary py-7 border-b-2">Consumer</Link>
+                    <Link href="#" className="border-primary py-5 border-b-2">Consumer</Link>
                 </div>
 
                 {/* <div>
