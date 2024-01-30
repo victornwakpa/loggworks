@@ -25,11 +25,11 @@ const links = [
 export default function TopNav() {
     // const pathname = usePathname();
     return (
-        <nav className="bg-white lg:border-b-2">
-            <div className="grid grid-cols-9 gap-4 container mx-auto px-20">
-                <div className="col-start-1 col-end-3 flex items-center">
+        <div className="bg-white lg:border-b">
+            <div className="grid grid-cols-9 gap-4 container px-20">
+                <Link href={"/"} className="col-start-1 col-end-3 flex items-center">
                     <Image src={logo} alt={"the website logo"} />
-                </div>
+                </Link>
 
                 <div className="col-start-3 col-end-8 gap-5 py-4">
                     <div className="flex items-center border border-gray-300 p-3 w-fit bg-white rounded-md">
@@ -64,6 +64,6 @@ export default function TopNav() {
 
                 {/* <Menu className="lg:hidden" /> */}
             </div>
-        </nav>
+        </div>
     );
 }
