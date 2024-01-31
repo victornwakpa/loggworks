@@ -6,7 +6,7 @@ import Secured from "./components/2-Secured";
 
 export default function Home() {
   return (
-    <div>
+    <div className="font-inter">
       <TopNav />
       <Navbar />
       <HeroSection />
