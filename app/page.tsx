@@ -3,6 +3,8 @@ import Navbar from "./components/Navbar";
 import TopNav from "./components/TopNav";
 import Secured from "./components/2-Secured";
 import Popular from "./components/3-popular";
+import ServiceOffer from "./components/4-serviceOffer";
+
 
 export default function Home() {
   return (
@@ -12,6 +14,7 @@ export default function Home() {
       <HeroSection />
       <Secured />
       <Popular />
+      <ServiceOffer />
     </div>
   );
 }
