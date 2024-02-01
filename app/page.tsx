@@ -5,6 +5,7 @@ import Secured from "./components/2-Secured";
 import Popular from "./components/3-popular";
 import ServiceOffer from "./components/4-serviceOffer";
 import Services from "./components/5-services";
+import SectionSix from "./components/6-section";
 
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
       <Popular />
       <ServiceOffer />
       <Services />
+      <SectionSix />
     </div>
   );
 }
