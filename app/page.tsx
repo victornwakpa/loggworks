@@ -2,7 +2,7 @@ import HeroSection from "./components/HeroSection";
 import Navbar from "./components/Navbar";
 import TopNav from "./components/TopNav";
 import Secured from "./components/2-Secured";
-// import Navbar from "./components/Navbar";
+import Popular from "./components/3-popular";
 
 export default function Home() {
   return (
@@ -11,6 +11,7 @@ export default function Home() {
       <Navbar />
       <HeroSection />
       <Secured />
+      <Popular />
     </div>
   );
 }
