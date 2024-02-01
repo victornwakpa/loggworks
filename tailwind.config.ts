@@ -23,6 +23,7 @@ const config = {
         "primary-100": "#F9FDF7",
         "gray-0":"#0D0D0D",
         "gray-10": "#2E2E2E",
+        "gray-20": "#4B4B4B",
         "gray-90": "#F6F6F6",
         "gray-100": "#FAFAFA",
         border: "hsl(var(--border))",
