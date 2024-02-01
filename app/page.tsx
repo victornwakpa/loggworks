@@ -8,6 +8,7 @@ import Services from "./components/5-services";
 import SectionSix from "./components/6-section";
 import ServiceOfferR from "./components/7-serviceOffer";
 import Area from "./components/9-homeService";
+import BottomBanner from "./components/10-banner";
 
 
 export default function Home() {
@@ -23,6 +24,7 @@ export default function Home() {
       <SectionSix />
       <ServiceOfferR />
       <Area />
+      <BottomBanner />
     </div>
   );
 }
