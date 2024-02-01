@@ -4,6 +4,7 @@ import TopNav from "./components/TopNav";
 import Secured from "./components/2-Secured";
 import Popular from "./components/3-popular";
 import ServiceOffer from "./components/4-serviceOffer";
+import Services from "./components/5-services";
 
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
       <Secured />
       <Popular />
       <ServiceOffer />
+      <Services />
     </div>
   );
 }
