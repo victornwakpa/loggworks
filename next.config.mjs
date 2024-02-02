@@ -3,7 +3,8 @@ const nextConfig = {
     images: {
         remotePatterns: [
           {
-            hostname: 'localhost',
+            protocol: 'https',
+            hostname: 'logg-wheat.vercel.app',
             port: '3000',
           },
         ],
