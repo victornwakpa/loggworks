@@ -36,20 +36,22 @@ const imageList = [
 
 export default function Popular() {
     return (
-        <div className="container px-20 py-16 bg-primary-100">
-            <h2 className="text-2xl font-bold">Explore popular services</h2>
+        <div className="bg-primary-100">
+            <div className="container px-20 py-16">
+                <h2 className="text-2xl font-bold">Explore popular services</h2>
 
-            <div className="grid grid-cols-6 gap-4 mt-10">
-                {imageList.map((image) => (
-                    <div key={image.id} className="relative flex w-fit rounded-lg overflow-hidden">
-                        <Image src={image.src} alt={image.name} width={187} height={280} />
+                <div className="grid grid-cols-6 gap-4 mt-10">
+                    {imageList.map((image) => (
+                        <div key={image.id} className="relative flex w-fit rounded-lg overflow-hidden">
+                            <Image src={image.src} alt={image.name} width={187} height={280} />
 
-                        <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black to-transparent h-[100px]"></div>
+                            <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black to-transparent h-[100px]"></div>
 
-                        <p className="text-white absolute bottom-3 font-medium left-2">{image.name}</p>
-                    </div>
-                ))}
+                            <p className="text-white absolute bottom-3 font-medium left-2">{image.name}</p>
+                        </div>
+                    ))}
 
+                </div>
             </div>
         </div>
     )
