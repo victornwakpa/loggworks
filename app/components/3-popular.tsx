@@ -5,32 +5,32 @@ const imageList = [
     {
         id: 1,
         name: "Electrician",
-        src: "http://localhost:3000/assets/1-electrician.png"
+        src: "/assets/1-electrician.png"
     },
     {
         id: 2,
         name: "Childminders",
-        src: "http://localhost:3000/assets/2-childminder.png"
+        src: "/assets/2-childminder.png"
     },
     {
         id: 3,
         name: "Carpenters",
-        src: "http://localhost:3000/assets/3-carpenter.png"
+        src: "/assets/3-carpenter.png"
     },
     {
         id: 4,
         name: "Cleaners",
-        src: "http://localhost:3000/assets/4-cleaner.png"
+        src: "/assets/4-cleaner.png"
     },
     {
         id: 5,
         name: "Care Worker",
-        src: "http://localhost:3000/assets/5-careworker.png"
+        src: "/assets/5-careworker.png"
     },
     {
         id: 6,
         name: "Cooks",
-        src: "http://localhost:3000/assets/6-cook.png"
+        src: "/assets/6-cook.png"
     },
 ];
 
