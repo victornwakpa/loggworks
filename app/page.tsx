@@ -10,6 +10,7 @@ import ServiceOfferR from "./components/7-serviceOffer";
 import Area from "./components/9-homeService";
 import BottomBanner from "./components/10-banner";
 import BlogSection from "./components/11-blogSection";
+import Footer from "./components/12-footer";
 
 
 export default function Home() {
@@ -27,6 +28,7 @@ export default function Home() {
       <Area />
       <BottomBanner />
       <BlogSection />
+      <Footer />
     </div>
   );
 }
