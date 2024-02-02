@@ -73,12 +73,14 @@ export default function HeroSection() {
             </div>
 
             {/* PARTNERS */}
-            <div className="flex items-center gap-20 bg-gray-90 container px-20 py-3 text-center">
+            <div className="bg-gray-90">
+                <div className="container px-20 py-3 text-center flex items-center gap-20">
                 <Image src={partnerOne} alt="partner" className="inline-block" />
                 <Image src={partnerTwo} alt="The Telegraph logo" className="inline-block" />
                 <Image src={partnerThree} alt="EveningStandard logo" className="inline-block" />
                 <Image src={partnerFour} alt="london logo" className="inline-block" />
                 <Image src={partnerFive} alt="Fast company logo" className="inline-block" />
+                </div>
             </div>
         </div>
     )
