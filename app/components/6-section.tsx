@@ -7,11 +7,11 @@ import { Plus } from 'lucide-react';
 
 export default function SectionSix() {
     return (
-        <div className="container px-20 py-16 hidden lg:block">
+        <div className="container px-5 lg:px-20 py-10 lg:py-16">
             <div className="flex flex-col gap-16">
                 <div>
                     <div className="flex justify-between items-center">
-                        <h3 className="text-2xl font-bold">Tradesmen</h3>
+                        <h3 className="text-xl lg:text-2xl font-bold">Tradesmen</h3>
                         <Button variant="ghost" className="text-primary-20">
                             <Plus className="inline-block w-5 mr-2" />
                             View all
@@ -19,7 +19,8 @@ export default function SectionSix() {
                     </div>
 
                     <div>
-                        <div className="grid grid-cols-4 gap-8 gap-y-8 mt-4">
+                        <div className="grid grid-flow-col auto-cols-max lg:auto-cols-fr overflow-x-auto lg:gap-8 gap-4 mt-4">
+                        {/* <div className="grid grid-flow-col auto-cols-max lg:auto-cols-fr gap-4 overflow-x-auto mt-10"> */}
                             {tradesmen.map((trademan) => (
                                 <div key={trademan.id} className="flex flex-col gap-3 justify-center">
                                     <Image src={trademan.src} alt={trademan.name} width={291} height={140} />
@@ -32,7 +33,7 @@ export default function SectionSix() {
 
                 <div>
                     <div className="flex justify-between items-center">
-                        <h3 className="text-2xl font-bold">Childcare</h3>
+                        <h3 className="text-xl lg:text-2xl font-bold">Childcare</h3>
                         <Button variant="ghost" className="text-primary-20">
                             <Plus className="inline-block w-5 mr-2" />
                             View all
@@ -40,7 +41,7 @@ export default function SectionSix() {
                     </div>
 
                     <div>
-                        <div className="grid grid-cols-4 gap-8 gap-y-8 mt-4">
+                        <div className="grid grid-flow-col auto-cols-max lg:auto-cols-fr overflow-x-auto lg:gap-8 gap-4 mt-4">
                             {childcare.map((childcare) => (
                                 <div key={childcare.id} className="flex flex-col gap-3 justify-center">
                                     <Image src={childcare.src} alt={childcare.name} width={291} height={140} />
@@ -53,7 +54,7 @@ export default function SectionSix() {
 
                 <div>
                     <div className="flex justify-between items-center">
-                        <h3 className="text-2xl font-bold">Entertainment</h3>
+                        <h3 className="text-xl lg:text-2xl font-bold">Entertainment</h3>
                         <Button variant="ghost" className="text-primary-20">
                             <Plus className="inline-block w-5 mr-2" />
                             View all
@@ -61,7 +62,7 @@ export default function SectionSix() {
                     </div>
 
                     <div>
-                        <div className="grid grid-cols-4 gap-8 gap-y-8 mt-4">
+                        <div className="grid grid-flow-col auto-cols-max lg:auto-cols-fr overflow-x-auto lg:gap-8 gap-4 mt-4">
                             {entertainment.map((entertainment) => (
                                 <div key={entertainment.id} className="flex flex-col gap-3 justify-center">
                                     <Image src={entertainment.src} alt={entertainment.name} width={291} height={140} />
