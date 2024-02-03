@@ -19,7 +19,7 @@ export default function SectionSix() {
                     </div>
 
                     <div>
-                        <div className="grid grid-flow-col auto-cols-max lg:auto-cols-fr overflow-x-auto lg:gap-8 gap-6 mt-4">
+                        <div className="grid grid-flow-col auto-cols-max lg:auto-cols-fr overflow-x-auto scrollable-content lg:gap-8 gap-6 mt-4">
                         {/* <div className="grid grid-flow-col auto-cols-max lg:auto-cols-fr gap-4 overflow-x-auto mt-10"> */}
                             {tradesmen.map((trademan) => (
                                 <div key={trademan.id} className="flex flex-col gap-3 justify-center">
@@ -42,7 +42,7 @@ export default function SectionSix() {
                     </div>
 
                     <div>
-                        <div className="grid grid-flow-col auto-cols-max lg:auto-cols-fr overflow-x-auto lg:gap-8 gap-6 mt-4">
+                        <div className="grid grid-flow-col auto-cols-max lg:auto-cols-fr overflow-x-auto scrollable-content lg:gap-8 gap-6 mt-4">
                             {childcare.map((childcare) => (
                                 <div key={childcare.id} className="flex flex-col gap-3 justify-center">
                                     <Image src={childcare.src} alt={childcare.name} width={291} height={140} className="hidden lg:block" />
@@ -64,7 +64,7 @@ export default function SectionSix() {
                     </div>
 
                     <div>
-                        <div className="grid grid-flow-col auto-cols-max lg:auto-cols-fr overflow-x-auto lg:gap-8 gap-6 mt-4">
+                        <div className="grid grid-flow-col auto-cols-max lg:auto-cols-fr overflow-x-auto scrollable-content lg:gap-8 gap-6 mt-4">
                             {entertainment.map((entertainment) => (
                                 <div key={entertainment.id} className="flex flex-col gap-3 justify-center">
                                     <Image src={entertainment.src} alt={entertainment.name} width={291} height={140} className="hidden lg:block" />
