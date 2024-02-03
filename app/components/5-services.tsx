@@ -3,7 +3,7 @@ import Image from "next/image.js";
 
 export default function Services() {
     return (
-        <div className="container px-20 py-16">
+        <div className="container px-20 py-16 hidden lg:block">
             <h2 className="text-center text-3xl font-bold">Services  categories</h2>
             <div className="grid grid-cols-8 gap-8 gap-y-8 mt-12">
                 {data.map((icon) => (

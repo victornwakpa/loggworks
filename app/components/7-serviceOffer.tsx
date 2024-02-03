@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 
 export default function ServiceOfferR() {
     return (
-        <div className="container px-20 py-16">
+        <div className="container px-20 py-16 hidden lg:block">
             <div className="flex flex-row-reverse rounded-lg overflow-hidden">
                 <div className="relative w-1/2">
                     <Image src={OuterImage} alt="outer image" className="w-full h-full" />

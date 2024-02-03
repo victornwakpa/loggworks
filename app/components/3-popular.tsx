@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Electrician from "@/public/assets/1-electrician.png"
 
 const imageList = [
     {
@@ -36,7 +35,7 @@ const imageList = [
 
 export default function Popular() {
     return (
-        <div className="bg-primary-100">
+        <div className="bg-primary-100 hidden lg:block">
             <div className="container px-20 py-16">
                 <h2 className="text-2xl font-bold">Explore popular services</h2>
 

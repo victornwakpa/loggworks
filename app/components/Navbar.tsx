@@ -31,7 +31,7 @@ const navlinks = [
 export default function Navbar() {
     return (
         <div>
-            <nav className="container px-20 border-b flex items-center justify-between">
+            <nav className="hidden container px-20 border-b lg:flex items-center justify-between">
                 <div className="flex gap-6 py-4">
                     {navlinks.map((link, id) => (
                         <div key={id}>

@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 
 export default function BottomBanner() {
     return (
-        <div className="container px-20 py-16">
+        <div className="container px-20 py-16 hidden lg:block">
             <div className="flex rounded-xl overflow-hidden bg-[#2E2E2E]">
                 <div className="relative w-1/2 flex justify-center pt-16">
                     <Image src={ui} alt="phone app image" className="" />

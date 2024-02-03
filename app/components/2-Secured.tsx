@@ -5,7 +5,7 @@ import Trusted from "@/public/assets/Trusted.png";
 
 export default function Secured(){
     return (
-        <div className="container px-20 py-16">
+        <div className="container px-20 py-16 hidden lg:block">
             <h2 className="text-3xl font-bold mb-12">Secured payment and privacy on Loggworks</h2>
             <div className="flex justify-between gap-6">
                 <div className="flex-1">

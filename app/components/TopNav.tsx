@@ -25,7 +25,7 @@ const links = [
 export default function TopNav() {
     // const pathname = usePathname();
     return (
-        <div className="bg-white lg:border-b">
+        <div className="bg-white lg:border-b lg:block hidden">
             <div className="grid grid-cols-9 gap-4 container px-20">
                 <Link href={"/"} className="col-start-1 col-end-3 flex items-center">
                     <Image src={logo} alt={"the website logo"} />

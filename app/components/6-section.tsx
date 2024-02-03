@@ -7,7 +7,7 @@ import { Plus } from 'lucide-react';
 
 export default function SectionSix() {
     return (
-        <div className="container px-20 py-16">
+        <div className="container px-20 py-16 hidden lg:block">
             <div className="flex flex-col gap-16">
                 <div>
                     <div className="flex justify-between items-center">

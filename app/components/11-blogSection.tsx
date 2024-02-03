@@ -6,7 +6,7 @@ import { ArrowRight } from 'lucide-react';
 
 export default function BlogSection() {
     return (
-        <div className="container px-20 py-16">
+        <div className="container px-20 py-16 hidden lg:block">
             <div className="">
                 <div className="grid grid-cols-3 gap-6">
                     {blogs.map((blog) => (
