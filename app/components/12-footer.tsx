@@ -69,7 +69,7 @@ export default function Footer() {
                     </div>
                 </div>
 
-                <div className="flex flex-col lg:flex-row justify-between pt-6 items-center text-white">
+                <div className="flex flex-col lg:flex-row justify-between pt-6 text-white">
                     <p className="text-center lg:text-left">©Copyright 2024 loggwork Ltd. All Rights Reserved</p>
                     <div className="hidden lg:flex divide-x">
                         <p className="px-2">Terms of Use</p>

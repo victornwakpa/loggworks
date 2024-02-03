@@ -22,7 +22,7 @@ export default function ServiceOffer() {
                     <div>
                         <h2 className="lg:text-4xl w-2/3 lg:w-full text-2xl font-bold text-gray-0 mb-4">Do you have a service to offer?</h2>
                         <p className="text-gray-20">All your payments are protected by a highly secure Escrow account. Pay in advance or on completion. with just a few clicks of a button, whenever.</p>
-                        <Button className=" bg-primary-20 w-full lg:w-fit mt-8 px-10 py-6">Become a professional</Button>
+                        <Button className="bg-primary-20 w-full lg:w-fit mt-8 px-10 py-6">Become a professional</Button>
                     </div>
                 </div>
             </div>
