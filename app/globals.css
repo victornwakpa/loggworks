@@ -70,6 +70,16 @@
   .scrollable-content::-webkit-scrollbar {
     display: none;
   }
+  .scroll-bar::-webkit-scrollbar {
+    height: 10px;
+  }
+  .scroll-bar::-webkit-scrollbar-track {
+    background: #cff0c3;
+  }
+  .scroll-bar::-webkit-scrollbar-thumb {
+    background-color: #80d85d;
+    border-radius: 20px;
+  }
 }
  
 @layer base {

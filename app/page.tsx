@@ -11,6 +11,7 @@ import Area from "./components/9-homeService";
 import BottomBanner from "./components/10-banner";
 import BlogSection from "./components/11-blogSection";
 import Footer from "./components/12-footer";
+import Testimonial from "./components/8-testimonial";
 
 
 export default function Home() {
@@ -25,6 +26,7 @@ export default function Home() {
       <Services />
       <SectionSix />
       <ServiceOfferR />
+      <Testimonial />
       <Area />
       <BottomBanner />
       <BlogSection />

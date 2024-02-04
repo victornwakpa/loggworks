@@ -3,8 +3,7 @@ const nextConfig = {
     images: {
         remotePatterns: [
           {
-            hostname: 'localhost',
-            port: '3000',
+            hostname: 'randomuser.me',
           },
         ],
       },

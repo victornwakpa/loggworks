@@ -21,6 +21,7 @@ const config = {
       colors: {
         "primary-20": "#2FA500",
         "primary-100": "#F9FDF7",
+        "primary-90": "#F0FFEB",
         "neutral-black": "#141414",
         "gray-0":"#0D0D0D",
         "gray-10": "#2E2E2E",
