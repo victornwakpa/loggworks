@@ -7,7 +7,7 @@ export default function Secured(){
     return (
         <div className="container px-5 lg:px-20 py-16">
             <h2 className="text-2xl lg:text-3xl font-bold mb-12">Secured payment and privacy on Loggworks</h2>
-            <div className="flex flex-col lg:flex-row justify-between gap-6">
+            <div className="flex flex-col lg:flex-row justify-between gap-8">
                 <div className="flex-1">
                     <Image src={Privacy} alt="Privacy icon" className="w-16" />
                     <div className="mt-6">
