@@ -10,7 +10,7 @@ import youtube from "@/public/assets/socials/youtube-fill.svg";
 export default function Footer() {
     return (
         <div className="bg-gray-0">
-            <div className="container px-5 lg:px-20 py-16 divide-y">
+            <div className="container px-5 lg:px-20 pt-10 pb-5 lg:py-16 divide-y">
                 <div className="grid grid-cols-2 lg:grid-cols-5 gap-16 text-white pb-6">
                     <div className="hidden lg:flex flex-col gap-4">
                         <Image src={Logo} alt="logo" />
