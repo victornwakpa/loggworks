@@ -71,7 +71,7 @@ export default function Footer() {
 
                 <div className="flex flex-col lg:flex-row justify-between pt-6 text-white">
                     <p className="text-center lg:text-left">©Copyright 2024 loggwork Ltd. All Rights Reserved</p>
-                    <div className="hidden lg:flex divide-x">
+                    <div className="hidden lg:flex place-items-end divide-x">
                         <p className="px-2">Terms of Use</p>
                         <p className="px-2">Privacy Policy</p>
                         <p className="px-2">Cookies</p>
@@ -79,7 +79,7 @@ export default function Footer() {
                     </div>
 
                     {/* MOBILE */}
-                    <div className="flex flex-col justify-center items-center mt-4 text-gray-100 gap-4">
+                    <div className="flex lg:hidden flex-col justify-center items-center mt-4 text-gray-100 gap-4">
                         <div className="flex lg:hidden divide-x">
                             <p className="px-4">Terms of Use</p>
                             <p className="px-4">Privacy Policy</p>
