@@ -23,7 +23,7 @@ export default function HeroSection() {
         //     <h1>Hero</h1>
         // </div>
         <div className="bg-[#F8F7FA]">
-            <div className="relative">
+            <div className="relative lg:mt-14">
                 <Image src={bg} alt="hero image" className="w-full hidden lg:block" />
 
                 <div className="lg:absolute inset-0 flex flex-col container px-5 py-16 lg:py-9 lg:px-20 justify-center">

@@ -1,6 +1,5 @@
 import HeroSection from "./components/HeroSection";
-import Navbar from "./components/Navbar";
-import TopNav from "./components/TopNav";
+import AllNav from "./components/1-Navbar";
 import Secured from "./components/2-Secured";
 import Popular from "./components/3-popular";
 import ServiceOffer from "./components/4-serviceOffer";
@@ -17,8 +16,7 @@ import Testimonial from "./components/8-testimonial";
 export default function Home() {
   return (
     <div className="font-inter">
-      <TopNav />
-      <Navbar />
+      <AllNav />
       <HeroSection />
       <Secured />
       <Popular />
