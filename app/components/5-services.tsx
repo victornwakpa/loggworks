@@ -8,7 +8,7 @@ export default function Services() {
     const [show, setShow] = useState(false);
 
     return (
-        <div className="container px-5 lg:px-20 py-10 lg:py-16 lg:block text-center">
+        <div className="container px-5 lg:px-20 py-6 lg:py-16 lg:block text-center">
             <h2 className="text-center lg:text[28px] lg:text-3xl font-bold">Explore services by categories</h2>
             <div className="hidden lg:grid grid-cols-3 text-center lg:grid-cols-8 gap-8 gap-y-8 mt-12">
                 {data.map((icon) => (
@@ -47,7 +47,7 @@ export default function Services() {
             }
 
                     <Button onClick={() => setShow(!show)} variant="outline" className="mt-10 inline-block lg:hidden w-[224px] h-[48px] text-primary-20 focus:text-primary-20 hover:bg-transparent font-bold rounded-md border-primary-20">
-                        {show === true ? "Close" : "Show All categories"}
+                        {show === true ? "Close" : "Show all categories"}
                     </Button>
                 </div>
     )
