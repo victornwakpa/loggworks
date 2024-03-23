@@ -33,6 +33,7 @@ const config = {
         "gray-100": "#FAFAFA",
         "gray--100": "#FAFAFA",
         "grey-40": "#858585",
+        "low-emphasis": "#666",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
