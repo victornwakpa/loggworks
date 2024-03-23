@@ -68,7 +68,7 @@ export default function HeroSection() {
                         {/* MOBILE SEARCH */}
                         <input type="text" placeholder="Try searching carpenter..." className="lg:hidden block border-gray-300 w-full border p-2 bg-gray--100 outline-none focus:outline-none rounded-md" />
 
-                        <Button className="bg-primary-20 w-full lg:w-fit px-8">
+                        <Button className="bg-primary-20 hover:bg-primary-20 w-full lg:w-fit px-8">
                             <Plus className="inline-block w-5 mr-2" />
                             Post Job
                         </Button>
