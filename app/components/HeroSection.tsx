@@ -78,14 +78,14 @@ export default function HeroSection() {
             </div>
 
             {/* PARTNERS */}
-            <div className="bg-gray-90 lg:block px-5 lg:px-0">
+            <div className="bg-gray-90 lg:block px-5 py-5 lg:py-0 lg:px-0">
                 <p className="lg:hidden text-low-emphasis">Featured on</p>
-                <div className="lg:container lg:px-20 py-3 flex items-center gap-20 overflow-x-hidden scrollable-content">
+                <div className="lg:container lg:px-20 lg:py-3 flex items-center gap-20 overflow-x-hidden scrollable-content">
                     <Image src={partnerOne} alt="partner" className="hidden lg:inline-block" />
                     <Image src={partnerTwo} alt="The Telegraph logo" className="inline-block w-[111.665px] h-[20.188px]" />
                     <Image src={partnerThree} alt="EveningStandard logo" className="inline-block w-[155.432px] h-[20.188px]" />
-                    <Image src={partnerFour} alt="london logo" className="inline-block w-[111.665px] h-[20.188px]" />
-                    <Image src={partnerFive} alt="Fast company logo" className="inline-block w-[111.665px] h-[20.188px]" />
+                    <Image src={partnerFour} alt="london logo" className="inline-block w-[59.97px] h-[44.414px]" />
+                    <Image src={partnerFive} alt="Fast company logo" className="inline-block w-[113.839px] h-[48.451px]" />
                 </div>
             </div>
         </div>
