@@ -5,7 +5,7 @@ import data from "@/app/data/data.js";
 export default function Testimonial() {
     return (
         <div className="bg-primary-90">
-            <div className="container px-5 lg:pl-20 py-10 lg:py-20 hidden lg:block">
+            <div className="container px-5 lg:pl-20 py-10 lg:py-20 lg:hidden">
                 <h2 className="text-3xl font-bold text-center">We’re trusted by many across the UK</h2>
                 <div className="flex gap-5 mt-12">
                     <div className="w-1/4 flex items-center">
