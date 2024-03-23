@@ -8,11 +8,11 @@ import { Plus } from 'lucide-react';
 export default function SectionSix() {
     return (
         <div className="container px-5 lg:px-20 py-10 lg:py-16">
-            <div className="flex flex-col gap-16">
+            <div className="flex flex-col gap-12 lg:gap-16">
                 <div>
                     <div className="flex justify-between items-center">
-                        <h3 className="text-xl lg:text-2xl font-bold">Tradesmen</h3>
-                        <Button variant="ghost" className="text-primary-20">
+                        <h3 className="text-xl text-[18px] lg:text-2xl font-semibold text-gray-0">Tradesmen</h3>
+                        <Button variant="ghost" className="text-primary-20 hover:text-primary-20 hover:bg-transparent">
                             <Plus className="inline-block w-5 mr-2" />
                             View all
                         </Button>
@@ -33,8 +33,8 @@ export default function SectionSix() {
 
                 <div>
                     <div className="flex justify-between items-center">
-                        <h3 className="text-xl lg:text-2xl font-bold">Childcare</h3>
-                        <Button variant="ghost" className="text-primary-20">
+                        <h3 className="text-xl text-[18px] lg:text-2xl font-semibold text-gray-0">Childcare</h3>
+                        <Button variant="ghost" className="text-primary-20 hover:text-primary-20 hover:bg-transparent">
                             <Plus className="inline-block w-5 mr-2" />
                             View all
                         </Button>
@@ -55,8 +55,8 @@ export default function SectionSix() {
 
                 <div>
                     <div className="flex justify-between items-center">
-                        <h3 className="text-xl lg:text-2xl font-bold">Entertainment</h3>
-                        <Button variant="ghost" className="text-primary-20">
+                        <h3 className="text-xl text-[18px] lg:text-2xl font-semibold text-gray-0">Entertainment</h3>
+                        <Button variant="ghost" className="text-primary-20 hover:text-primary-20 hover:bg-transparent">
                             <Plus className="inline-block w-5 mr-2" />
                             View all
                         </Button>
