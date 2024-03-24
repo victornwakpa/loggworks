@@ -9,7 +9,7 @@ export default function Area() {
 
     return (
         <div className="container px-5 lg:px-20 py-16">
-            <h2 className="text-2xl font-bold">View Home service professionals in your area.</h2>
+            <h2 className="text-xl w-72 lg:w-full lg:text-3xl font-bold">View Home service professionals in your area.</h2>
             <div className="hidden lg:grid lg:grid-cols-6 gap-y-6 mt-12">
                 {areas.map((area) => (
                     <div key={area.id} className="flex flex-col">
