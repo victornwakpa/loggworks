@@ -10,7 +10,7 @@ export default function BlogSection() {
             <div className="">
                 <div className="grid grid-flow-col auto-cols-max lg:auto-cols-fr overflow-x-auto scrollable-content lg:gap-8 gap-6">
                     {blogs.map((blog) => (
-                        <div key={blog.id} className="flex flex-col gap-4 w-80 lg:w-full">
+                        <div key={blog.id} className="flex flex-col gap-4 w-72 lg:w-full">
                             <Image src={blog.src} alt={blog.title} width={397} height={200} />
                             <div className="flex flex-col gap-1">
                                 <p className="text-sm text-gray-20">{blog.categories}</p>
