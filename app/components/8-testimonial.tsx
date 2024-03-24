@@ -1,27 +1,63 @@
+"use client";
 import trustscore from "@/public/assets/trust-score.png";
 import Image from "next/image";
 import data from "@/app/data/data.js";
 
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Pagination, Navigation } from "swiper/modules";
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
+import { ChevronLeft, ChevronRight } from "lucide-react";
+
+
 export default function Testimonial() {
     return (
         <div className="bg-primary-90">
-            <div className="container px-5 lg:pl-20 py-10 lg:py-20 lg:hidden">
+            <div className="container px-5 py-10 lg:py-20">
                 <h2 className="text-3xl font-bold text-center">We’re trusted by many across the UK</h2>
-                <div className="flex gap-5 mt-12">
-                    <div className="w-1/4 flex items-center">
-                        <Image src={trustscore} alt="trustscore" />
-                    </div>
-                    <div className="grid grid-flow-col scroll-bar auto-cols-min overflow-x-auto w-3/4 lg:gap-5 gap-4 mt-4 pb-6">
+                <div className=" mt-12">
+                    <Swiper
+                        effect={"coverflow"}
+                        grabCursor={true}
+                        centeredSlides={true}
+                        loop={true}
+                        slidesPerView={"auto"}
+                        pagination={{
+                            el: ".swiper-pagination",
+                            clickable: true,
+                        }}
+                        navigation={{
+                            nextEl: ".swiper-button-next",
+                            prevEl: ".swiper-button-prev",
+                            // clickable: true,
+                        }}
+                        modules={[Pagination, Navigation]}
+
+                        className="mt-4 pb-6 h-[300px]"
+                    >
                         {data.map((testimonial, id) => (
-                            <div key={testimonial.id} className="p-5 flex flex-col justify-between bg-white rounded-lg w-[400px] h-[210px]">
-                                <p className="mb-3">{testimonial.message}</p>
-                                <div className="flex gap-2 items-center rounded-lg">
-                                    <Image src={testimonial.avatar} alt="image showing sign up" className="rounded-full" width={32} height={32} />
-                                    <p className="block font-medium text-lg">{testimonial.name}</p>
+                            <SwiperSlide>
+                                <div key={testimonial.id} className="p-5 flex flex-col justify-between bg-white rounded-lg w-[335px] h-[236px]">
+                                    <p className="mb-3">{testimonial.message}</p>
+                                    <div className="flex gap-2 items-center rounded-lg">
+                                        <Image src={testimonial.avatar} alt="image showing sign up" className="rounded-full" width={32} height={32} />
+                                        <p className="block font-medium text-lg">{testimonial.name}</p>
+                                    </div>
                                 </div>
-                            </div>
+                            </SwiperSlide>
                         ))}
-                    </div>
+
+                        <div className="slider-controler">
+                            <div className="swiper-button-prev slider-arrow">
+                                <ChevronLeft />
+                            </div>
+                            <div className="swiper-button-next slider-arrow">
+                                <ChevronRight />
+                            </div>
+                            <div className="swiper-pagination"></div>
+                        </div>
+                    </Swiper>
                 </div>
             </div>
         </div>
