@@ -20,7 +20,7 @@ export default function ServiceOfferR() {
 
                 <div className="flex-1 lg:w-1/2 bg-gray-100 px-5 lg:px-24 py-8 lg:py-24 flex justify-center items-center">
                     <div>
-                        <h2 className="text-2xl lg:text-[40px] leading-9 lg:leading-[48px] font-bold text-gray-0 mb-4">Can’t find the professional you are looking for??</h2>
+                        <h2 className="text-2xl lg:text-[40px] leading-9 lg:leading-[48px] font-bold text-gray-0 mb-4">Can't find the professional you are looking for??</h2>
                         <p className="text-gray-20 leading-7">All your payments are protected by a highly secure Escrow account. Pay in advance or on completion. with just a few clicks of a button, whenever.</p>
                         <Button className="bg-primary-20 w-full lg:w-[238px] mt-8 px-10 py-6">Post a Job</Button>
                     </div>

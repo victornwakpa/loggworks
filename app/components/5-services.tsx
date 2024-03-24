@@ -46,9 +46,9 @@ export default function Services() {
                 </div>
             }
 
-                    <Button onClick={() => setShow(!show)} variant="outline" className="mt-10 inline-block lg:hidden w-[224px] h-[48px] text-primary-20 focus:text-primary-20 hover:bg-transparent font-bold rounded-md border-primary-20">
-                        {show === true ? "Close" : "Show all categories"}
-                    </Button>
-                </div>
+            <Button onClick={() => setShow(!show)} variant="outline" className="mt-10 inline-block lg:hidden w-[224px] h-[48px] text-primary-20 focus:text-primary-20 hover:bg-transparent font-bold rounded-md border-primary-20">
+                {show === true ? "Close" : "Show all categories"}
+            </Button>
+        </div>
     )
 }
