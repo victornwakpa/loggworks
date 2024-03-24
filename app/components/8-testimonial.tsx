@@ -47,16 +47,17 @@ export default function Testimonial() {
                             </SwiperSlide>
                         ))}
 
-                        <div className="slider-controler">
-                            <div className="swiper-button-prev slider-arrow p-1 rounded-full bg-white text-gray-800 hover:bg-white h-8 w-8">
-                                <ChevronLeft />
-                            </div>
-                            <div className="swiper-button-next slider-arrow p-1 rounded-full bg-white text-gray-800 hover:bg-white">
-                                <ChevronRight />
-                            </div>
-                            <div className="swiper-pagination"></div>
-                        </div>
+
                     </Swiper>
+                    <div className="slider-controler">
+                        <div className="swiper-button-prev slider-arrow p-1 rounded-full bg-white text-gray-800 hover:bg-white h-8 w-8">
+                            <ChevronLeft />
+                        </div>
+                        <div className="swiper-button-next slider-arrow p-1 rounded-full bg-white text-gray-800 hover:bg-white">
+                            <ChevronRight />
+                        </div>
+                        <div className="swiper-pagination"></div>
+                    </div>
                 </div>
             </div>
         </div>

@@ -63,7 +63,7 @@
 
 
   :root {
-    --primary: #6a59ff;
+    --primary: #2FA500;
     --white: #ffffff;
     --bg: #f5f5f5;
   }
@@ -104,7 +104,8 @@
   /* } */
 
   .slider-controler .slider-arrow {
-    /* font-size: 4rem; */
+    /* font-size: 0.5rem; */
+    padding: 10px;
     color: #222224;
     background: var(--white);
     width: 2.5rem;
@@ -117,9 +118,9 @@
   }
 
   .swiper-pagination {
-    /* position: absolute;
-    top: unset !important;
-    bottom: ; */
+    position: absolute;
+
+    /* bottom: unset !important; */
   }
 
   .swiper-pagination .swiper-pagination-bullet-active {
