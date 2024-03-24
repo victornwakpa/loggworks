@@ -36,8 +36,8 @@ export default function Testimonial() {
                         className="mt-4 pb-6 h-[300px]"
                     >
                         {data.map((testimonial, id) => (
-                            <SwiperSlide className="pb-4">
-                                <div key={testimonial.id} className="p-5 flex flex-col justify-between bg-white rounded-lg w-[335px] h-[236px]">
+                            <SwiperSlide key={testimonial.id} className="pb-4">
+                                <div className="p-5 flex flex-col justify-between bg-white rounded-lg w-[335px] h-[236px]">
                                     <p className="mb-3">{testimonial.message}</p>
                                     <div className="flex gap-2 items-center rounded-lg">
                                         <Image src={testimonial.avatar} alt="image showing sign up" className="rounded-full" width={32} height={32} />

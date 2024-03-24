@@ -119,9 +119,6 @@
     /* position: absolute;
     top: unset !important;
     bottom: ; */
-    /* margin-top: 8px; */
-    position: relative;
-    top: 40px;
   }
 
   .swiper-pagination .swiper-pagination-bullet-active {
