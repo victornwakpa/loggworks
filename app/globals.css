@@ -78,6 +78,14 @@
     margin: 0 40px;
   }
 
+  .swiper-button-prev, .swiper-button-next {
+    position: relative;
+    bottom: 2rem;
+    display: flex;
+    align-items: center;
+    z-index: 100;
+  }
+
 
   /* @media (max-width: 450px) {
     .slider-controler .swiper-button-next {
@@ -111,6 +119,7 @@
     width: 2.5rem;
     height: 2.5rem;
     border-radius: 50%;
+    z-index: 1000;
   }
 
   .slider-controler .slider-arrow::after {
@@ -119,8 +128,13 @@
 
   .swiper-pagination {
     position: absolute;
+    bottom: 23px !important;
+    width: auto;
+  }
 
-    /* bottom: unset !important; */
+  .swiper-pagination .swiper-pagination-bullet {
+    background: #D2F0C1;
+    opacity: 1;
   }
 
   .swiper-pagination .swiper-pagination-bullet-active {
