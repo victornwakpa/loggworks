@@ -30,14 +30,13 @@ export default function Testimonial() {
                         navigation={{
                             nextEl: ".swiper-button-next",
                             prevEl: ".swiper-button-prev",
-                            // clickable: true,
                         }}
                         modules={[Pagination, Navigation]}
 
                         className="mt-4 pb-6 h-[300px]"
                     >
                         {data.map((testimonial, id) => (
-                            <SwiperSlide>
+                            <SwiperSlide className="pb-4">
                                 <div key={testimonial.id} className="p-5 flex flex-col justify-between bg-white rounded-lg w-[335px] h-[236px]">
                                     <p className="mb-3">{testimonial.message}</p>
                                     <div className="flex gap-2 items-center rounded-lg">
@@ -49,10 +48,10 @@ export default function Testimonial() {
                         ))}
 
                         <div className="slider-controler">
-                            <div className="swiper-button-prev slider-arrow">
+                            <div className="swiper-button-prev slider-arrow p-1 rounded-full bg-white text-gray-800 hover:bg-white h-8 w-8">
                                 <ChevronLeft />
                             </div>
-                            <div className="swiper-button-next slider-arrow">
+                            <div className="swiper-button-next slider-arrow p-1 rounded-full bg-white text-gray-800 hover:bg-white">
                                 <ChevronRight />
                             </div>
                             <div className="swiper-pagination"></div>
