@@ -9,9 +9,9 @@ import youtube from "@/public/assets/socials/youtube-fill.svg";
 
 export default function Footer() {
     return (
-        <div className="bg-gray-0">
+        <div className="lg:bg-gray-0">
             <div className="container px-5 lg:px-20 pt-10 pb-5 lg:py-16 divide-y">
-                <div className="grid grid-cols-2 lg:grid-cols-5 gap-16 text-white pb-6">
+                <div className="hidden lg:grid grid-cols-2 lg:grid-cols-5 gap-16 text-white pb-6">
                     <div className="hidden lg:flex flex-col gap-4">
                         <Image src={Logo} alt="logo" />
                         <Button className="py-5 border bg-gray-0">Become a Professional</Button>
@@ -37,7 +37,7 @@ export default function Footer() {
                     </div>
 
                     <div className="flex flex-col gap-4">
-                        <h5 className="text-xl font-bold">loggworks</h5>
+                        <h5 className="text-xl font-bold">Loggworks</h5>
                         <p className="text-gray-60">About us</p>
                         <p className="text-gray-60">Careers</p>
                         <p className="text-gray-60">Partners</p>
@@ -69,25 +69,13 @@ export default function Footer() {
                     </div>
                 </div>
 
-                <div className="flex flex-col lg:flex-row justify-between pt-6 text-white">
+                <div className="hidden lg:flex flex-col lg:flex-row justify-between pt-6 text-white">
                     <p className="text-center lg:text-left">©Copyright 2024 loggwork Ltd. All Rights Reserved</p>
                     <div className="hidden lg:flex place-items-end divide-x">
                         <p className="px-2">Terms of Use</p>
                         <p className="px-2">Privacy Policy</p>
                         <p className="px-2">Cookies</p>
                         <p className="px-2">Sitemap</p>
-                    </div>
-
-                    {/* MOBILE */}
-                    <div className="flex lg:hidden flex-col justify-center items-center mt-4 text-gray-100 gap-4">
-                        <div className="flex lg:hidden divide-x">
-                            <p className="px-4">Terms of Use</p>
-                            <p className="px-4">Privacy Policy</p>
-                        </div>
-                        <div className="flex lg:hidden divide-x">
-                            <p className="px-4">Cookies</p>
-                            <p className="px-4">Sitemap</p>
-                        </div>
                     </div>
                 </div>
             </div>

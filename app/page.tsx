@@ -11,6 +11,7 @@ import BottomBanner from "./components/10-banner";
 import BlogSection from "./components/11-blogSection";
 import Footer from "./components/12-footer";
 import Testimonial from "./components/8-testimonial";
+import FooterMobile from "./components/12-footerMobile";
 
 
 export default function Home() {
@@ -29,6 +30,7 @@ export default function Home() {
       <BottomBanner />
       <BlogSection />
       <Footer />
+      <FooterMobile />
     </div>
   );
 }
