@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Link from "next/link";
 import blogs from "@/app/data/blog";
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from 'lucide-react';
@@ -27,11 +26,9 @@ export default function BlogSection() {
                 </div>
 
                 <div className="flex justify-center mt-12">
-                    <Link href={"/"}>
-                        <Button className="bg-primary-20 text-left w-fit px-8">
+                        <Button className="bg-primary-20 hover:bg-primary-20 focus:bg-primary-20 text-left w-fit px-8">
                             Checkout Our Blog
                         </Button>
-                    </Link>
                 </div>
             </div>
         </div>
