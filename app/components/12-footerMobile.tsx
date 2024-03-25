@@ -9,10 +9,19 @@ import Logo from "@/public/assets/logo-footer.png";
 import { Button } from "@/components/ui/button";
 
 export default function FooterMobile() {
+    const items = [
+        { value: "1", content: "Homeowners" },
+        { value: "2", content: "Professionals" },
+        { value: "3", content: "Loggworks" },
+        { value: "4", content: "Follow us" }
+    ];
+
+    const defaultValue = items[items.length - 1].value;
+
     return (
         <div className="bg-[#1D1D1D] text-gray--100 py-8 px-5 lg:hidden">
             <main className="flex flex-col mb-10">
-                <Accordian className="max-w-lg">
+                <Accordian value={defaultValue} className="max-w-lg">
                     <AccordianItem value="1" trigger="Homeowners">
                         <div className="flex flex-col gap-4">
                             <p className="">Post a Job</p>
@@ -33,7 +42,7 @@ export default function FooterMobile() {
                         </div>
                     </AccordianItem>
 
-                    <AccordianItem value="3" trigger="loggworks">
+                    <AccordianItem value="3" trigger="Loggworks">
                         <div className="flex flex-col gap-4">
                             <p className="">About us</p>
                             <p className="">Careers</p>

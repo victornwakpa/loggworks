@@ -29,10 +29,19 @@ const Accordion: React.FC<AccordianProps> = ({ children, value, onChange, ...pro
         onChange?.(selected)
     }, [selected])
 
+    // useEffect(() => {
+    //     // Set the selected state to the value of the last AccordionItem
+    //     const lastItemValue = React.Children.toArray(children).slice(-1)[0].props.value;
+    //     setSelected(lastItemValue);
+    // }, [children]);
+
     useEffect(() => {
         // Set the selected state to the value of the last AccordionItem
-        const lastItemValue = React.Children.toArray(children).slice(-1)[0].props.value;
-        setSelected(lastItemValue);
+        React.Children.forEach(children, (child) => {
+            if (React.isValidElement(child)) {
+                setSelected(child.props.value);
+            }
+        });
     }, [children]);
 
     return (
