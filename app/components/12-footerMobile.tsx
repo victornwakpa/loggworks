@@ -9,14 +9,8 @@ import Logo from "@/public/assets/logo-footer.png";
 import { Button } from "@/components/ui/button";
 
 export default function FooterMobile() {
-    const items = [
-        { value: "1", content: "Homeowners" },
-        { value: "2", content: "Professionals" },
-        { value: "3", content: "Loggworks" },
-        { value: "4", content: "Follow us" }
-    ];
 
-    const defaultValue = items[items.length - 1].value;
+    const defaultValue = 3;
 
     return (
         <div className="bg-[#1D1D1D] text-gray--100 py-8 px-5 lg:hidden">

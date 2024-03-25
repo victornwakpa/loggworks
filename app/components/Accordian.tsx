@@ -44,6 +44,12 @@ const Accordion: React.FC<AccordianProps> = ({ children, value, onChange, ...pro
         });
     }, [children]);
 
+    // useEffect(() => {
+    //     // Set the selected state to the value of the last AccordionItem
+    //     const lastItemValue = React.Children.toArray(children).slice(-1)[0]?.props.value;
+    //     setSelected(lastItemValue);
+    // }, [children]);
+
     return (
         <ul {...props}>
             <AccordianContext.Provider value={{ selected, setSelected }}>
