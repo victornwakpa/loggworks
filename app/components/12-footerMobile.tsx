@@ -15,7 +15,7 @@ export default function FooterMobile() {
     return (
         <div className="bg-[#1D1D1D] text-gray--100 py-8 px-5 lg:hidden">
             <main className="flex flex-col mb-10">
-                <Accordian value={defaultValue} className="max-w-lg">
+                <Accordian value={defaultValue} className="">
                     <AccordianItem value="1" trigger="Homeowners">
                         <div className="flex flex-col gap-4">
                             <p className="">Post a Job</p>
