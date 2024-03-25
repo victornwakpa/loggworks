@@ -46,23 +46,23 @@ export default function Footer() {
 
                     <div className="flex flex-col gap-5">
                         <h5 className="text-xl font-bold">Follow us</h5>
-                        <div className="flex gap-1">
+                        <div className="flex items-center gap-1 text-gray--100">
                             <Image src={facebook} alt="facebook" className="inline-block w-5 h-5" />
                             Facebook
                         </div>
-                        <div className="flex items-center gap-1">
+                        <div className="flex items-center gap-1 text-gray--100">
                             <Image src={twitter} alt="twitter" className="inline-block w-5 h-5" />
                             Twitter
                         </div>
-                        <div className="flex items-center gap-1">
+                        <div className="flex items-center gap-1 text-gray--100">
                             <Image src={instagram} alt="instagram" className="inline-block w-5 h-5" />
                             Instagram
                         </div>
-                        <div className="flex items-center gap-1">
+                        <div className="flex items-center gap-1 text-gray--100">
                             <Image src={youtube} alt="youtube" className="inline-block w-5 h-5" />
                             Youtube
                         </div>
-                        <div className="flex items-center gap-1">
+                        <div className="flex items-center gap-1 text-gray--100">
                             <Image src={linkedin} alt="linkedin" className="inline-block w-5 h-5" />
                             LinkedIn
                         </div>
