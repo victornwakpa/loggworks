@@ -1,12 +1,14 @@
 "use client";
 import { ChevronDown } from "lucide-react";
 import React from "react";
+import { PropsWithChildren } from 'react';
 import { useEffect, useState, createContext, ReactNode, useContext, useRef } from "react";
 
 interface AccordianProps {
     children: ReactNode;
     value: any;
     onChange?: (value: any) => void;
+    className?: string;
 }
 
 interface AccordianItemProps {
@@ -20,7 +22,7 @@ const AccordianContext = createContext<{ selected: any, setSelected: React.Dispa
     setSelected: () => {}
 });
 
-export default function Accordian({ children, value, onChange, ...props }: AccordianProps) {
+const Accordion: React.FC<AccordianProps> = ({ children, value, onChange, ...props }: AccordianProps) => {
     const [selected, setSelected] = useState(value);
 
     useEffect(() => {
@@ -60,3 +62,5 @@ export function AccordianItem({ children, value, trigger, ...props }: AccordianI
         </li>
     )
 }
+
+export default Accordion;
